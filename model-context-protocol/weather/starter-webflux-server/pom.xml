@@ -46,6 +46,10 @@
         </plugins>
     </build>
 
+    <properties>
+        <start-class>org.springframework.ai.mcp.sample.server.McpServerApplication</start-class>
+    </properties>
+
     <repositories>
         <repository>
             <name>Central Portal Snapshots</name>
